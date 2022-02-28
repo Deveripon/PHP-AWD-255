@@ -1,0 +1,113 @@
+
+==============PHP SYNTAX===========================
+ <?PHP
+ 
+ CODE WILL GO HERE
+
+ ?>
+ ==============PHP SYNTAX===========================
+
+
+ ==============PHP DATATYPES===========================
+ There are 5 kinds of datas available in php
+
+ example:
+ 1.string [text typed any kind of data called as string and it will write within " " ]
+ 2.integer [any kind of number type data is called as integer type data and integer will writen without any qoutation]
+ 3.float/double [any kind of divided data is called as float type data]
+ 4. Boolean [any kind of true or false type data is called as boolean type data]
+ 5.array [ when and data have multiple vale then it will called as array type data]
+
+ ==============PHP DATATYPES===========================
+
+==============PHP STATEMENTS===========================
+1.CONCATE [ TO LINK UP MORE THEN ONE DATA IN ONE LINE WE HAVE USE CONCATANATION BY USING  DOT .]
+
+
+
+==============PHP VARIABLES & CONSTANT=========================
+
+1.VARIABLES================
+$variable = 'value';
+
+2. CONSTANT===============
+ define('CONSTANT','value')
+
+ ==============PHP VARIABLES & CONSTANT VALUES=========================
+
+ 1.UNDEFINED VARIABLE;
+  Undefined variables means which is not defined previously.
+
+2.EMPTY/FLAG VARIABLES;
+ It means the variable is already declared but its value not to set yet.
+
+3. NULL VARIABLES:
+null variables means the variable is already declared and its value is set as NULL.
+
+4. ARRAY VARIABLES:
+ array variables means a variable which has multiple values.
+
+   
+
+
+
+=====================PHP ISSET/DIE/EMPTY=========================
+
+
+
+1.ISSET
+
+example:
+
+if(isset ($name))){
+    echo "Value is already set";
+}else{
+echo "Value is not set";
+}
+
+
+
+
+2. EMPTY
+
+example:
+
+$name = '';
+
+if(empty ($name))){
+    echo "Value is empty";
+}else{
+echo "Value is not empty";
+}
+
+
+
+3. DIE
+
+example
+echo "I AM MR RIPON"
+echo "I AM MR RIPON"
+echo "I AM MR RIPON"
+die();
+echo "I AM MR RIPON"
+echo "I AM MR RIPON"
+echo "I AM MR RIPON"
+
+
+
+
+=====================PHP INCLUDE/REQUIRE=========================
+
+
+<?PHP
+
+ include "./result_system.php";
+
+ include_once "./result_system.php";
+ 
+ require "./result_system.php";
+
+ require_once "./result_system.php";
+
+
+?>
